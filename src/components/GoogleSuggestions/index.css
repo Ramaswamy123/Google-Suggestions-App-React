@@ -1,0 +1,39 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.google-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 80%;
+}
+.google-icon {
+  height: 100px;
+  width: 280px;
+}
+.input-container {
+  display: flex;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.input-box {
+  width: 260px;
+  border-width: 0px;
+  padding: 5px;
+  outline: none;
+}
+.input-suggestions-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
